@@ -3,4 +3,4 @@
 
 # how-to-use
  Atualmente, é exclusivo para a empresa Cinética, Escola do Movimento.
- Caso você deseje, pode fazer as alterações necessárias para emplementar em seu site.
+ Caso você deseje, pode fazer as alterações necessárias para emplementar em seu site/empresa.
