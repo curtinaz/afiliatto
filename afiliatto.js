@@ -6,4 +6,4 @@ var isthis = () => {
     // window.alert(inputHolder);
 }
 
-document.querySelector('#afiliatte_id').addEventListener(click, isthis)
+document.querySelector('#afiliatte_go').addEventListener(click, isthis)
