@@ -6,6 +6,6 @@ var isthis = () => {
     // window.alert(inputHolder);
 }
 
-addEventListener(document.querySelector('#afiliatte_id'), click {
+document.querySelector('#afiliatte_id').addEventListener(click {
     console.log("teste");
 })
