@@ -5,3 +5,4 @@ var isthis = () => {
     // var inputHolder = document.querySelector('#afiliatte_id').value;
     // window.alert(inputHolder);
 }
+
