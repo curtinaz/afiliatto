@@ -1,5 +1,5 @@
 # afiliatto
- Um script simples que verifica se o código de afiliado realmente existe e, redireciona o cliente para seus links de afiliado
+ Um script que torna a landing page dinâmica, exibindo o nome do cliente em pontos estratégicos.
 
 # how-to-use
  Atualmente, é exclusivo para a empresa Cinética, Escola do Movimento.
