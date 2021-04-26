@@ -1,0 +1,1 @@
+let param = location.search.slice(1);
