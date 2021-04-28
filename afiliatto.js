@@ -1,3 +1,3 @@
 let param = location.search.slice(1);
 
-param = param.split("=");
+JSON.parse('{"' + param.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) })
