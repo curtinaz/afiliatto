@@ -6,4 +6,6 @@ if (param == "") {
     let hasparam = false;
 } else {
     var qtd_links = document.querySelectorAll("a").length;
+    var changing = 0;
+
 }
