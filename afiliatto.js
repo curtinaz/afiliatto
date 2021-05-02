@@ -5,7 +5,7 @@ search = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}
 if (param == "") {
     let hasparam = false;
 } else {
-    var qtd_links = document.querySelectorAll("a").length;
+    var sujeito = search.sujeito;
     var changing = 0;
     
     for (changing = 0; changing <= qtd_links; changing++) {
@@ -16,6 +16,6 @@ if (param == "") {
         } else {
             document.querySelectorAll("a")[changing].href = checkout_url + "&" + param;
         }
-        
+
     }
 }
