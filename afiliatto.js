@@ -5,7 +5,7 @@ var param = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + 
 if (param == "") {
     let hasparam = false;
 } else {
-    var sujeito = search.sujeito;
+    var sujeito = param.sujeito;
     var changing = 0;
     
     for (changing = 0; changing <= qtd_links; changing++) {
