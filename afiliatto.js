@@ -9,7 +9,7 @@ if (param.sujeito == "") {
     var sujeito_qtd = document.querySelectorAll(".sujeito");
     var changing = 0;
     
-    for (changing = 0; changing <= qtd_links; changing++) {
+    for (changing = 0; changing <= sujeito_qtd; changing++) {
         var checkout_url = document.querySelectorAll("a")[changing].href;
         
         if (checkout_url.split('?')[1] === undefined) {
