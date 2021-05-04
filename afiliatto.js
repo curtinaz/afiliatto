@@ -10,13 +10,8 @@ if (param.sujeito == "") {
     var changing = 0;
     
     for (changing = 0; changing <= sujeito_qtd; changing++) {
-        var checkout_url = document.querySelectorAll("a")[changing].href;
-        
-        if (checkout_url.split('?')[1] === undefined) {
-            document.querySelectorAll("a")[changing].href = checkout_url + "?" + param;
-        } else {
-            document.querySelectorAll("a")[changing].href = checkout_url + "&" + param;
-        }
+
+        console.log("temporario")
 
     }
 }
