@@ -11,7 +11,7 @@ if (param.sujeito == "") {
     
     for (changing = 0; changing <= sujeito_qtd; changing++) {
 
-        
+        document.querySelectorAll(".sujeito")[changing].innerHTML = sujeito;
         console.log("temporario");
 
     }
