@@ -11,7 +11,7 @@ if (param.sujeito == "") {
     
     for (changing = 0; changing <= sujeito_qtd; changing++) {
 
-        console.log("temporario")
+        console.log("temporario");
 
     }
 }
