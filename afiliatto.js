@@ -1,4 +1,4 @@
-let search = location.search.substring(1);
+let search = location.search.substring(1); // O código separa somente os parâmetros da URL
 
 var param = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) })
 
