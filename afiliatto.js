@@ -7,7 +7,7 @@ var param = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + 
 if (param.sujeito == "") {
     let hasparam = false; // O código verifica se existe o parâmetro "sujeito"
 } else {
-    var sujeito = param.sujeito;
+    var sujeito = param.sujeito; // O código cria a variável sujeito, que vai mudar o valor das classes sujeito.
     var sujeito_qtd = document.querySelectorAll(".sujeito").length;
     var changing = 0;
     
