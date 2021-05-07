@@ -9,7 +9,7 @@ if (param.sujeito == "") {
 } else {
     var sujeito = param.sujeito; // O código cria a variável sujeito, que vai mudar o valor das classes sujeito.
     var sujeito_qtd = document.querySelectorAll(".sujeito").length; // O código question a quantidade de classes ".sujeito" que existem no site.
-    var changing = 0;
+    var changing = 0; // O código define um valor "i" para o laço 'for'.
     
     for (changing = 0; changing <= sujeito_qtd; changing++) {
 
