@@ -5,7 +5,7 @@ let search = location.search.substring(1);
 var param = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) }) 
 
 if (param.sujeito == "") {
-    let hasparam = false;
+    let hasparam = false; // O código verifica se existe o parâmetro "sujeito"
 } else {
     var sujeito = param.sujeito;
     var sujeito_qtd = document.querySelectorAll(".sujeito").length;
