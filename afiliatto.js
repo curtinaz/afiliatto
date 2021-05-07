@@ -8,7 +8,7 @@ if (param.sujeito == "") {
     let hasparam = false; // O código verifica se existe o parâmetro "sujeito"
 } else {
     var sujeito = param.sujeito; // O código cria a variável sujeito, que vai mudar o valor das classes sujeito.
-    var sujeito_qtd = document.querySelectorAll(".sujeito").length;
+    var sujeito_qtd = document.querySelectorAll(".sujeito").length; // O código question a quantidade de classes ".sujeito" que existem no site.
     var changing = 0;
     
     for (changing = 0; changing <= sujeito_qtd; changing++) {
