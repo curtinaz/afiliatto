@@ -21,6 +21,7 @@ if (param.ndl == "") {
 
     var changing = 0;
     var without_qtd = document.querySelectorAll(".withoutparam").length;
+    
     for (changing = 0; changing <= ndl_qtd; changing++) {
 
         document.querySelectorAll(".ndl")[changing].innerHTML = ndl;
