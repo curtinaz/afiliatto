@@ -7,6 +7,14 @@ var param = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + 
 if (param.ndl == "") {
     let hasparam = false;
     var withparam_qtd = document.querySelectorAll(".withparam").length;
+
+    for (changing = 0; changing <= ndl_qtd; changing++) {
+
+        document.querySelectorAll(".ndl")[changing].innerHTML = ndl;
+        console.log("Nome do lead foi alterado");
+
+    }
+
 } else {
     var ndl = param.ndl; // O código cria a variável ndl (Nome do Lead), que vai mudar o valor das classes ndl.
     var ndl_qtd = document.querySelectorAll(".ndl").length; // O código question a quantidade de classes ".ndl" que existem no site.
@@ -21,7 +29,7 @@ if (param.ndl == "") {
 
     var changing = 0;
     var without_qtd = document.querySelectorAll(".withoutparam").length;
-    
+
     for (changing = 0; changing <= ndl_qtd; changing++) {
 
         document.querySelectorAll(".ndl")[changing].innerHTML = ndl;
