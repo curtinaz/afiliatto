@@ -8,7 +8,7 @@ if (param.ndl == "") {
     let hasparam = false;
     var withparam_qtd = document.querySelectorAll(".withparam").length;
 
-    for (changing = 0; changing <= ndl_qtd; changing++) {
+    for (changing = 0; changing <= withparam_qtd; changing++) {
 
         document.querySelectorAll(".ndl")[changing].innerHTML = ndl;
         console.log("Nome do lead foi alterado");
@@ -30,7 +30,7 @@ if (param.ndl == "") {
     var changing = 0;
     var without_qtd = document.querySelectorAll(".withoutparam").length;
 
-    for (changing = 0; changing <= ndl_qtd; changing++) {
+    for (changing = 0; changing <= without_qtd; changing++) {
 
         document.querySelectorAll(".ndl")[changing].innerHTML = ndl;
         console.log("Nome do lead foi alterado");
