@@ -11,7 +11,7 @@ if (param.ndl == "") {
     for (changing = 0; changing <= withparam_qtd; changing++) {
 
         document.querySelectorAll(".ndl")[changing].innerHTML = ndl;
-        console.log("Nome do lead foi alterado");
+        console.log("Div personalizada removida");
 
     }
 
