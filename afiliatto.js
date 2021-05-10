@@ -28,14 +28,13 @@ if (param.ndl == "") {
         console.log("Nome do lead foi alterado");
 
     }
-
-    changing = 0;
+    
     var without_qtd = document.querySelectorAll(".withoutparam").length;
 
     for (changing = 0; changing <= without_qtd; changing++) {
 
         // document.querySelectorAll(".withoutparam")[changing].style.display = none;
-        console.log("Nome do lead foi alterado");
+        console.log("Div removida");
 
     }
 }
