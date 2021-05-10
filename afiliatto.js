@@ -10,7 +10,7 @@ if (param.ndl == "") {
 
     var withparam_qtd = document.querySelectorAll(".withparam").length;
 
-    for (changing = 0; changing <= withparam_qtd; changing++) {
+    for (changing = 0; changing < withparam_qtd; changing++) {
 
         // document.querySelectorAll(".withparam")[changing].style = display:none;
         console.log("Div personalizada removida");
@@ -22,7 +22,7 @@ if (param.ndl == "") {
     var ndl_qtd = document.querySelectorAll(".ndl").length; // O código question a quantidade de classes ".ndl" que existem no site.
     var changing = 0; // O código define um valor "i" para o laço 'for'.
     
-    for (changing = 0; changing <= ndl_qtd; changing++) {
+    for (changing = 0; changing < ndl_qtd; changing++) {
 
         document.querySelectorAll(".ndl")[changing].innerHTML = ndl;
         console.log("Nome do lead foi alterado");
