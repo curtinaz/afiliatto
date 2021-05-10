@@ -32,7 +32,7 @@ if (param.ndl == "") {
 
     for (changing = 0; changing <= without_qtd; changing++) {
 
-        document.querySelectorAll(".ndl")[changing].innerHTML = ndl;
+        document.querySelectorAll(".withoutparam")[changing].style.display = none;
         console.log("Nome do lead foi alterado");
 
     }
