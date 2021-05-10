@@ -12,7 +12,7 @@ if (param.ndl == "") {
 
     for (changing = 0; changing < withparam_qtd; changing++) {
 
-        // document.querySelectorAll(".withparam")[changing].style = display:none;
+        document.querySelectorAll(".withparam")[changing].style.display = "none";
         console.log("Div personalizada removida");
 
     }
