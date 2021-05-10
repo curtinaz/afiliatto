@@ -33,8 +33,8 @@ if (param.ndl == "") {
 
     for (changing = 0; changing <= without_qtd; changing++) {
 
-        // document.querySelectorAll(".withoutparam")[changing].style.display = none;
-        console.log("Div removida");
+        document.querySelectorAll(".withoutparam")[changing].cssText =
+        'display: none;';
 
     }
 }
