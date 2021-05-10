@@ -6,6 +6,9 @@ var param = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + 
 
 if (param.ndl == "") {
     let hasparam = false;
+
+    var changing = 0;
+
     var withparam_qtd = document.querySelectorAll(".withparam").length;
 
     for (changing = 0; changing <= withparam_qtd; changing++) {
@@ -27,7 +30,7 @@ if (param.ndl == "") {
 
     }
 
-    var changing = 0;
+    changing = 0;
     var without_qtd = document.querySelectorAll(".withoutparam").length;
 
     for (changing = 0; changing <= without_qtd; changing++) {
