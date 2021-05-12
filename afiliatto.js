@@ -1,12 +1,8 @@
 // O código separa somente os parâmetros da URL
 let search = location.search.substring(1); 
 
-if (search != "") {
-    var param = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) }) 
-// O código transforma os parâmetros em um JSON. (levando em conta os caracteres especiais)
-}
 
-if (param.ndl == "") {
+if (search == "") {
 
     var changing = 0;
 
@@ -20,6 +16,10 @@ if (param.ndl == "") {
     }
 
 } else {
+
+    var param = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) });
+
+
     var ndl = param.ndl; // O código cria a variável ndl (Nome do Lead), que vai mudar o valor das classes ndl.
     var ndl_qtd = document.querySelectorAll(".ndl").length; // O código question a quantidade de classes ".ndl" que existem no site.
     var changing = 0; // O código define um valor "i" para o laço 'for'.
