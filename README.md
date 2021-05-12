@@ -2,5 +2,8 @@
  Um script que torna a landing page dinâmica, exibindo o nome do cliente em pontos estratégicos.
 
 # how-to-use
- Atualmente, é exclusivo para a empresa Cinética, Escola do Movimento.
- Caso você deseje, pode fazer as alterações necessárias para emplementar em seu site/empresa.
+Todas as páginas que tiverem o script, irão passar a 'carregar' os parâmetros para as próximas páginas.
+
+Para isto, basta criar um: 
+```<script src="https://curtinaz.github.io/afiliatto/afiliatto.js">``` 
+ao final da tag body.
