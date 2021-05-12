@@ -29,6 +29,8 @@ if (param.ndl == "") {
         console.log("Nome do lead foi alterado");
 
     }
+
+    changing = 0
     
     var without_qtd = document.querySelectorAll(".withoutparam").length;
 
