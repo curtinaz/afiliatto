@@ -1,11 +1,14 @@
 // O código separa somente os parâmetros da URL
 let search = location.search.substring(1); 
 
+if (search.includes("ndl")) {
+    var hasparam = true;
+}
+
 if (search == "") {
 } else {
     var param = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) });
 }
-
 
 if (param.nld == "") {
 
