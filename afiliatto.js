@@ -11,7 +11,7 @@ if (search == "") {
     var param = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) });
 }
 
-if (param.ndl == "") {
+if (param.ndl === undefined || param.ndl == "") {
 
     var changing = 0;
 
