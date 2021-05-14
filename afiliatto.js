@@ -1,3 +1,5 @@
+console.log("Afiliatto v2.2")
+
 // O código separa somente os parâmetros da URL
 let search = location.search.substring(1); 
 var hasparam = false;
