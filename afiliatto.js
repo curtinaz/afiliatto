@@ -1,8 +1,9 @@
 // O código separa somente os parâmetros da URL
 let search = location.search.substring(1); 
+var hasparam = false;
 
 if (search.includes("ndl")) {
-    var hasparam = true;
+    hasparam = true;
 }
 
 if (search == "") {
